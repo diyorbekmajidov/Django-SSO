@@ -1,8 +1,3 @@
 django
 djangorestframework
 django-cors-headers 
-google-api-core==1.22.2
-google-auth==1.21.2
-google-auth-httplib2==0.0.4
-googleapis-common-protos==1.52.0
-google-api-python-client
