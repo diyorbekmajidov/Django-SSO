@@ -27,6 +27,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites', 
     
+    'accounts',
+
+
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -124,9 +127,9 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 
-STATICFILES_DIRS = [
-    BASE_DIR / 'backend/static'
-]
+# STATICFILES_DIRS = [
+#     BASE_DIR / 'backend/static'
+# ]
 
 
 # Default primary key field type
